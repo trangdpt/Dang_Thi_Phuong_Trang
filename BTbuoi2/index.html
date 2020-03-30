@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<title>Xây dựng trang web hoàn chỉnh</title>
+	<style type="text/css">
+		body {
+			margin: 0px auto;
+			width: 1000px;
+			font-size: 13px;
+		}
+		#baner{
+			background-color: red;
+			height: auto;
+			width: 1000px;
+		}
+		#menu{
+			background-color: #141414;
+			height: 40px;
+		}
+		#main #left {
+			width: 200px;
+			background : #ccc;
+			float: left;
+			height: auto;
+		}
+		#main #right {
+			width: 800px;
+			background : white;
+			float: left;
+			height: auto;
+		}
+		#footer{
+			background: #000;
+			width: 1000px;
+			height: 60px;
+			text-align: center;
+			clear: left;
+			line-height: 60px
+
+		}
+		#menu ul li {
+			list-style: none;
+			float: left;
+		}
+		#menu ul li a {
+			text-decoration: none;
+			display: block;
+			height: 40px;
+			line-height: 40px;
+			
+			padding: 0px 50px 0px 50px;
+			border-right: 1px solid #ccc;
+		}
+	</style>
+</head>
+<body>
+<div id="baner">
+	<img src="BANER5.jpg">
+</div>
+<div id="menu"> 
+
+	<ul>
+		<li><a href="index.html">Trang chủ</a>  </li>
+		<li><a href="infor.html"> Giới thiệu</a> </li>
+		<li> <a href="member.html"> Học viên</a></li>
+		<li><a href="mb_register.html"> Đăng kí </a></li>
+	</ul>
+
+</div>
+<div id="main">
+	<div id="left">left</div>
+	<div id="right">
+		<h1 style="color:blue ">Giới thiệu về ITPlus Academy</h1>
+<h3><center><b> ITPLUS ACADEMY – HỌC VÀ LÀM THEO DỰ ÁN THỰC TẾ	</b></center></h3>
+<p><b>ITPlus Academy được thành lập từ năm 2011 với nhiệm vụ nghiên cứu, ứng dụng khoa học công nghệ đào tạo nhân lực chất lượng cao ngành Công nghệ thông tin. Dựa vào nhu cầu thực tế của các Tập đoàn Công nghệ thông tin, ITPlus Academy hợp tác với Học viện Công nghệ Bưu chính Viễn thông, Đại Học Sư Phạm Nghệ Thuật Trung Ương, Đại Học Sân Khấu Điện Ảnh triển khai chương trình đào tạo chuyên sâu với các chuyên ngành: Lập trình ứng dụng và Thiết kế đồ họa – Truyền thông Đa phương tiện.</b></p>
+<p>Sau 7 năm phát triển ITPlus Academy đã đào tạo hơn 8000 sinh viên, hợp tác với hơn 50 doanh nghiệp hàng đầu trong lĩnh vực công nghệ thông tin và thiết kế đồ họa như: Samsung, LG, FPT Software, Viettel, VNPT, CMC, VCCorp, Netnam, Tinh Vân, VNG, Gameloft, Esoftflow, Telsoft, Izisolution, Ecommage, Vnext, EcoIT…. mang đến cơ hội việc làm rộng mở cho sinh viên ngay sau khi tốt nghiệp</p>
+<p>Các chương trình đào tạo của ITPlus Academy được nhận "Giải thưởng Sao Khuê 2017, 2018 & 2019" cho các sản phẩm, dịch vụ xuất sắc nhất ngành phần mềm và dịch vụ Công Nghệ Thông Tin của Việt Nam.</p>
+<img src="3a.jpg" title="Giải thưởng sao khuê" alt="Giải thưởng sao khuê">
+
+<hr>
+
+<form action="" method="">
+	<table border="2">
+		<tr>
+			<th>STT</th>
+			<th width="50" height="50">Hình ẢNh</th>
+			<th width="200">Họ tên</th>
+			<th >Phone</th>
+			<th width="150">Email</th>
+			<th>Môn học</th>
+
+		</tr>
+		
+		 <tr height="40">
+					<td align="center">1</td>
+					<td><img src="a.png" width="50" height="50"></td>
+					<td>Admin</td>
+					<td>0123456465</td>
+					<td>admin123@gmail.com</td>
+					<td>PHP</td>
+		</tr>
+		 <tr height="40">
+					<td align="center">1</td>
+					<td><img src="b.jpg" width="50" height="50" ></td>
+					<td>Alex</td>
+					<td>03456465</td>
+					<td>alex23@gmail.com</td>
+					<td>Java</td>
+		</tr>
+
+		 <tr height="40">
+					<td align="center">1</td>
+					<td><img src="c.jpg" width="50" height="50" ></td>
+					<td>Bin</td>
+					<td>09356465</td>
+					<td>binn23@gmail.com</td>
+					<td>CSHAP</td>
+		</tr>
+	</table>
+</form>
+
+<hr>
+<form name="dkhoahoa" action="" method="">
+	<label>Họ Tên</label>
+	<input type="text" required="" name="name" id="name" min="5" max="30" placeholder="Nhap ten cua ban..."><br>
+	<br>
+
+	<label>Phone</label>
+	<input type="number" required="" name="Phone" id="Phone">
+	<br><br>
+
+	<label>Địa chỉ</label>
+	<input type="text" required="" name="name" id="name" min="5" max="200" ><br>
+	<br>
+
+	<label>Email</label>
+	<input type="Email" name="Email" id="Email">
+	<br><br>
+
+	<label>Giới tính</label>
+	<input type="radio" name="gt" id="0"> Nam
+	<input type="radio" name="gt" id="1"> Nữ
+	<input type="radio" name="gt" id="2"> 3D
+	<br><br>
+
+	<label>Môn học</label>
+	<select name="monhoc" id="">
+		<option value="php"> Lập trình php</option>
+		<option value="tkdh"> Thiết kế đồ họa</option>
+		<option value="xuly"> xử lý video</option>
+
+	</select>
+	<br><br>
+
+<textarea name="" id=" " cols="30" rows="5" placeholder="Ghi chú..."></textarea>
+	<br><br>
+	<input type="submit" name="dki" value="Đăng kí">
+	<input type="reset" name="nl" value="Nhập lại">
+</form>
+
+
+
+	</div>
+
+</div>
+
+<div id="footer">footer</div>
+</body>
+</html>
